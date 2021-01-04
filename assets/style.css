@@ -39,10 +39,16 @@ body header {
     font-size: 4em;
 }
 
-.game-info {
-  color: #eb3166;
-  font-size: 4em;
-  text-align: center;
+body header .game-info {
+    position: absolute;
+    top:14%;
+    left: 3%;
+    font-size: 23px;
+    width: 8vh;
+    height: 8vh;
+    line-height: 8vh;
+    border-radius: 4vh;
+    text-align: center;
 }
 
 
