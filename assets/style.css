@@ -128,3 +128,43 @@ background: #969696;
 transform: rotateY(180deg);
 border: 1px solid #8d99ae;  
 }
+
+#dog {
+    background: white url("dog.png") no-repeat center;
+    background-size: contain;
+}
+
+#cat {
+    background: white url("cat.png") no-repeat center;
+    background-size: contain;
+}
+
+#cow {
+    background: white url("cow.png") no-repeat center;
+    background-size: contain;
+}
+
+#lion {
+    background: white url("lion.png") no-repeat center;
+    background-size: contain;
+}
+
+#elephant {
+    background: white url("elephant.png") no-repeat center;
+    background-size: contain;
+}
+
+#fish {
+    background: white url("fish.png") no-repeat center;
+    background-size: contain;
+}
+
+#tiger {
+    background: white url("tiger.png") no-repeat center;
+    background-size: contain;
+}
+
+#bird {
+    background: white url("bird.png") no-repeat center;
+    background-size: contain;
+}
