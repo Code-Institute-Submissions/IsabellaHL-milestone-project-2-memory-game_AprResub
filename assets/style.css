@@ -3,13 +3,12 @@
     box-sizing: border-box;
 }
 
-html{ 
-    min-height: 100vh;
-}
 
 body { 
     margin: 0;
-    background: radial-gradient(#93f0fa,#31d9eb); 
+    background: #93f0fa;
+    height: 100vh;
+    width: 100%;
 }
 
 .title {
