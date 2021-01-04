@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html{ 
+    min-height: 100vh;
+}
+
+body { 
+    margin: 0;
+    background: radial-gradient(#93f0fa,#31d9eb); 
+}
+
+.title {
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 6em;
+}
+
+.how-to-play {
+     color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 4em;
+}
+
+.game-info {
+  color: #eb3166;
+  font-size: 4em;
+}
+
