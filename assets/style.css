@@ -51,4 +51,15 @@ body header .game-info {
     text-align: center;
 }
 
+.game {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 3737.4375em) {
+    .game {width: 600px;
+    }
+}
 
