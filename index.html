@@ -13,17 +13,22 @@
 <h2 class="how-to-play">How to play: Find all 8 pairs of animals in the 60 seconds you are given. 
        There is a timer and a counter keeping a record of your moves. Good luck and enjoy! </h2>
        
-<!-----------------------This section includes the game container, countdown timer and a moves counter---------------------->
+<!-----------------------This section includes the header with the moves counter and time counter---------------------->
 
-<div class="game-info">
+<header> 
+      
+  <div class="game-info">
     Time <span id="time-remaining">60</span>
-</div>
-<div class="game-info">
+  </div>
+  <div class="game-info">
     Moves <span id="moves">0</span>
-</div>
+  </div>
+  
+</header>
+<!-----------------------This section includes the game container---------------------->
+
 
  <div class="game">
-
     <div class="flip-container">
        <div class="flipper">
            <div class="front"></div>
@@ -135,7 +140,6 @@
            <div class="back"></div>
        </div>
     </div>
-
 </div>
 
 </body>
