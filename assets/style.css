@@ -1,26 +1,13 @@
-@media screen and (min-width: 37.4375em) {
-    body header {
-        width: 600px;
-    }
-}
-
 * {
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-body { 
-    margin: 0;
-    background: #93f0fa;
-    height: 100vh;
-    width: 100%;
-}
-
-body header {
-    height: 20vh;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
+body {
+  height: 100vh;
+  display: flex;
+  background: #060AB2;
 }
 
 .title {
