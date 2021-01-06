@@ -11,7 +11,7 @@ body {
 }
 
 .title {
-    color: blue;
+    color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
     text-align: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .how-to-play {
-     color: blue;
+     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: normal;
     text-align: center;
