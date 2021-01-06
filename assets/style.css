@@ -26,132 +26,46 @@ body {
     font-size: 4em;
 }
 
-body header .game-info {
-    position: absolute;
-    top:14%;
-    left: 3%;
-    font-size: 23px;
-    width: 8vh;
-    height: 8vh;
-    line-height: 8vh;
-    border-radius: 4vh;
-    text-align: center;
+.memory-game {
+  width: 640px;
+  height: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
 }
 
-.game {
-    height: 90vh;
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
+.memory-card {
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
+  margin: 5px;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
 }
 
-@media screen and (min-width: 3737.4375em) {
-    .game {width: 600px;
-    }
+.memory-card:active {
+  transform: scale(0.97);
+  transition: transform .2s;
 }
 
-.flip-container {
-    -webkit-perspective: 1000;
-    -moz-perspective: 1000;
-    perspective: 1000;
-    height: 22%;
-    margin: 1%;
-    cursor: pointer;
+.memory-card.flip {
+  transform: rotateY(180deg);
 }
 
-.flip-container.flip .flipper {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    -o-transform: rotateY(180);
-    transform: rotateY(180deg);
+.front-face,
+.back-face {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  border-radius: 5px;
+  background: #1C7CCC;
+  backface-visibility: hidden;
 }
 
-.flip-container, .front, .back {
-    width: 23%;
-    float: left;
-    border-radius: 12px;
-}
-
-.flipper {
-    -webkit-transition: 0.6s;
-    -moz-transition: 0.6s;
-    transition: 0.06s;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform: preserve-3d;
-    -o-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    height: 100%;
-    position: relative;
-}
-
-.flipper .front, flipper .back {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -ms-backface-visibility:visible;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    box-shadow:#595556;
-}
-
-.flipper .front {
--webkit-transform: rotateY(0deg);
--moz-transform: rotateY(0deg);
--ms-transform: rotateY(0deg);
--o-transform: rotateY(0deg);
-transform: rotateY(0deg);
-background: #969696;
-}
-
-.flipper .back {
--webkit-transform: rotateY(180deg);
--moz-transform: rotateY(180deg);
--ms-transform: rotateY(180deg);
--o-transform: rotateY(180deg);
-transform: rotateY(180deg);
-border: 1px solid #8d99ae;  
-}
-
-#dog {
-    background: white url("dog.png") no-repeat center;
-    background-size: contain;
-}
-
-#cat {
-    background: white url("cat.png") no-repeat center;
-    background-size: contain;
-}
-
-#cow {
-    background: white url("cow.png") no-repeat center;
-    background-size: contain;
-}
-
-#lion {
-    background: white url("lion.png") no-repeat center;
-    background-size: contain;
-}
-
-#elephant {
-    background: white url("elephant.png") no-repeat center;
-    background-size: contain;
-}
-
-#fish {
-    background: white url("fish.png") no-repeat center;
-    background-size: contain;
-}
-
-#tiger {
-    background: white url("tiger.png") no-repeat center;
-    background-size: contain;
-}
-
-#bird {
-    background: white url("bird.png") no-repeat center;
-    background-size: contain;
+.front-face {
+  transform: rotateY(180deg);
 }
