@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 100vh; 
-  display: flex; 
-  background: #99e7ff; 
-}
-
 .heading, .desc{
   text-align: center;
   margin: 1% 0;
