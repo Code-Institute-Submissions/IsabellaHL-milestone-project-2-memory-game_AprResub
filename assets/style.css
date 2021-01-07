@@ -5,25 +5,14 @@
 }
 
 body {
-  height: 100vh;
-  display: flex;
-  background: #060AB2;
+  height: 100vh; 
+  display: flex; 
+  background: #99e7ff; 
 }
 
-.title {
-    color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: normal;
-    text-align: center;
-    font-size: 6em;
-}
-
-.how-to-play {
-     color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: normal;
-    text-align: center;
-    font-size: 4em;
+.heading, .desc{
+  text-align: center;
+  margin: 1% 0;
 }
 
 .memory-game {
