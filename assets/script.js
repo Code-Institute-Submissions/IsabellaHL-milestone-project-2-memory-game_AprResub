@@ -3,12 +3,24 @@ const cards = document.querySelectorAll('.memory-card');
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let moves = 1;
+let time = 60
+let timer = true
+
+var interval = setInterval(function() {
+  document.querySelector('.time').innerHTML = time--;
+    if (time == -1) {
+        clearInterval(interval);
+        alert("Time's up!")
+    }
+}, 1000);
 
 function flipCard() {
   if (lockBoard) return;
   if (this === firstCard) return;
 
   this.classList.add('flip');
+   document.querySelector('.moves').innerHTML = moves++;
 
   if (!hasFlippedCard) {
     // first click
