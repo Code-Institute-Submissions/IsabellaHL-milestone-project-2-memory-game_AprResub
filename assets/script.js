@@ -22,10 +22,6 @@ function flipCard() {
   this.classList.add('flip');
    document.querySelector('.moves').innerHTML = moves++;
 
-let flipped = document.querySelectorAll('.flip')
-  if(flipped.length == 12 && time >= 0){
-    alert("You won!")
-
   if (!hasFlippedCard) {
     // first click
     hasFlippedCard = true;
@@ -77,8 +73,3 @@ function resetBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
-
-document.querySelector('.reset').addEventListener('click', function(){
-  location.reload()
-})
-
