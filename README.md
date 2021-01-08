@@ -27,3 +27,5 @@ The objective of the game is to remember the placement of the different tiles an
     -   This the the wireframe that I used to develop my game [View]((https://github.com/IsabellaHL/milestone-project-2-memory-game/assets/images/Wireframes.png?raw=true))
 
     
+
+    

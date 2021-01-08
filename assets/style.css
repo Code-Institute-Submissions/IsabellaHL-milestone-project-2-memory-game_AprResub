@@ -67,3 +67,20 @@ body {
 .front-face {
   transform: rotateY(180deg);
 }
+
+.reset-div{
+  text-align: center;
+  margin: 1% 0;
+}
+
+.reset{
+  font-size: 1em;
+  padding: 0.5% 1%;
+  background: white;
+  border: 1px solid black;
+}
+
+.reset:hover{
+  cursor: pointer;
+}
+  
