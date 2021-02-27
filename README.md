@@ -57,8 +57,8 @@ The objective of the game is to remember the placement of the different tiles an
 
 ## Testing
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/) 
+-   [W3C CSS Validator] (https://jigsaw.w3.org/css-validator/)
 
 ## Deployment
 
