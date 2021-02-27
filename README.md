@@ -57,8 +57,22 @@ The objective of the game is to remember the placement of the different tiles an
 
 ## Testing
 
--   [W3C Markup Validator](https://validator.w3.org/) 
--   [W3C CSS Validator] (https://jigsaw.w3.org/css-validator/)
+- [W3C Markup Validation](https://validator.w3.org/#validate_by_input) - used to validate HTML
+    - some very minor issues found that have no impact on the overall functinality of the site.
+- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) - used to vaildate CSS Code
+    - no errors found
+
+ I used [DevTools](https://developers.google.com/web/tools/chrome-devtools) to ensure the functionaility of the site as well as looking/fixing any bugs within the code.
+ * I also tested responsiveness using google dev tools. I tested the following types:
+
+    * iPad Pro (portrait: 1024x1366 & landscape: 1366x1024)
+    * iPad (portrait: 768x1024 & landscape: 1024x768)
+    * iPhone 5/SE (portrait: 320x568 & landscape: 568x320)
+    * iPhone X (portrait: 375x812 & landscape: 812x375)
+    * Galaxy S5/Moto G4 (portrait: 360x640 & landscape: 640x360)
+    * Pixel 2 (portrait: 411x731 & landscape: 731x411
+   - there are some issues with responsiveness when it comes to devices with smaller size, ideally I would have used a different framework layout to make sure that the game would be more responsive on such devices.
+
 
 ## Deployment
 
