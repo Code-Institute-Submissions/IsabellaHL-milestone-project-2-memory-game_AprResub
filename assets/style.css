@@ -5,16 +5,16 @@
 }
 
 body {
-    background-color:#c4f1ff;
+  background-color: #c4f1ff;
 }
 
-.heading
-.desc{
+.heading,
+.desc {
   text-align: center;
   margin: 1% 0;
 }
 
-.counters{
+.counters {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,7 +25,7 @@ body {
   margin: auto;
 }
 
-.counters p{
+.counters p {
   font-size: 1.2em;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 .memory-card:active {
- -webkit-transform: scale(0.97);
+  -webkit-transform: scale(0.97);
   transform: scale(0.97);
   -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
@@ -89,22 +89,23 @@ body {
   transform: rotateY(180deg);
 }
 
-.reset-div{
+.reset-div {
   text-align: center;
   margin: 1% 0;
 }
 
-.reset{
+.reset {
   font-size: 1em;
   padding: 0.5% 1%;
   background: white;
   border: 1px solid black;
 }
 
-.reset:hover{
+.reset:hover {
   cursor: pointer;
 }
 
+/* responsive design */
 @media only screen and (max-width: 767px) {
   body {
     font-size: 16px;
