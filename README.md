@@ -12,8 +12,8 @@ This website contains a simple single player memory game where the objective is 
 
 -   ### User stories
 
-This game is aimed at both children and adult looking for a simple and fun online game to pass thier time with.
-The objective of the game is to remember the placement of the different tiles and find the matches within a time constraint wich is not only fun but great exercise for memory and cognition.
+This game is aimed at both children and adults looking for a simple and fun online game to pass thier time with.
+The objective of the game is to remember the placement of the different tiles and find the matches within a time constraint which is not only fun but great exercise for memory and cognition.
 
 -   ### Design
     -   #### Colour Scheme
@@ -42,7 +42,6 @@ The objective of the game is to remember the placement of the different tiles an
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-
 [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 [Unplash](https://unsplash.com/)
