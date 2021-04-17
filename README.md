@@ -101,7 +101,7 @@ Testing game functionality-
   - Opera - works well
   - Safari - found that the game function of flipping the cards does not work well on safari. I have issue understanding why this happens, and when able will try to look for a solution.
 
-  I also personally tested the game on my Iphone 11 and on Imac, the game worked well both times.
+  I also tested the game on my Iphone 11 and on Imac, the game worked well both times.
 
 
 ## Deployment
