@@ -22,7 +22,7 @@ The objective of the game is to remember the placement of the different tiles an
         #### Typography
         -  A standard font has been used for the heading as well as the how to play info, as I wanted to keep the site clean and simple.
     -   #### Imagery
-        -   The images that are used are very colorful and eye catching. I beleive that this is a great addition to the game as it allows for the player to remember the placement of the cards due to the eyecatching imagery used in the game.
+        -   The images that are used are very colorful and eye catching. I believe that this is a great addition to the game as it allows for the player to remember the placement of the cards due to the eyecatching imagery used.
     ### Wireframes
     -   This the the wireframe that I used to develop my game [View]((https://github.com/IsabellaHL/milestone-project-2-memory-game/assets/images/Wireframes.png?raw=true))
 
@@ -40,12 +40,21 @@ The objective of the game is to remember the placement of the different tiles an
 
 [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
 [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+
 [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+
 [Unplash](https://unsplash.com/)
     - Unplash was used for images
+
+[DevTools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used to check responsiveness and layout of the site.
+
+[Am I responsive](http://ami.responsivedesign.is/) 
+    - Used to ensure the site was fully responsive.
 
 #### Other Resources
 
@@ -61,8 +70,8 @@ The objective of the game is to remember the placement of the different tiles an
 - [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) - used to vaildate CSS Code
     - no errors found
 
- I used [DevTools](https://developers.google.com/web/tools/chrome-devtools) to ensure the functionaility of the site as well as looking/fixing any bugs within the code.
- * I also tested responsiveness using google dev tools. I tested the following types:
+ I used [DevTools](https://developers.google.com/web/tools/chrome-devtools) to ensure the responsiveness of the site as well as looking/fixing any bugs within the code.
+ * I tested the following types:
 
     * iPad Pro (portrait: 1024x1366 & landscape: 1366x1024)
     * iPad (portrait: 768x1024 & landscape: 1024x768)
@@ -70,7 +79,29 @@ The objective of the game is to remember the placement of the different tiles an
     * iPhone X (portrait: 375x812 & landscape: 812x375)
     * Galaxy S5/Moto G4 (portrait: 360x640 & landscape: 640x360)
     * Pixel 2 (portrait: 411x731 & landscape: 731x411
-   - there are some issues with responsiveness when it comes to devices with smaller size, ideally I would have used a different framework layout to make sure that the game would be more responsive on such devices.
+   - There are no responsiveness issues with the site and the game looks well on all devices (desktop,laptop,tablet and phone). I also used [Am I responsive](http://ami.responsivedesign.is/) to ensure responsiveness on all devices.
+
+Testing game functionality-
+  - Tested the layout of the site on all devices 
+  - Tested that all tiles flip around with no issues when clicked.
+  - Tested that the tiles will flip back around with no issues if the pair does not match.
+  - Tested that the tiles will will stay face up if there is a match found. 
+  - Tested that the player can only click two cards at a time, and the cards need to flip around if a match is not found for a third card to be clicked.
+  - Tested that the timer will start counting down when the game is loaded or reset.
+  - Tested that the moves counter counts the moves correctly.
+  - Tested that the timer counts down correctly and stops after the game is won.
+  - Tested that the timer triggers a pop up window with a "times' up" message if the time runs out and the game is not won.
+  - Tested that once the game is won a pop up message with "You won" appears.
+  - Tested that the reset button starts a new game.
+
+  I also tested the site on the following browsers-
+  - Chrome - works well
+  - Firefox - works well
+  - IE EDGE - works well
+  - Opera - works well
+  - Safari - found that the game function of flipping the cards does not work well on safari. I have issue understanding why this happens, and when able will try to look for a solution.
+
+  I also personally tested the game on my Iphone 11 and on Imac, the game worked well both times.
 
 
 ## Deployment
@@ -124,7 +155,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
-
 -   Tutor support at Code Institute for their support.
 
 
